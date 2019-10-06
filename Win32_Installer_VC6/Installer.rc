@@ -1,0 +1,205 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "res\\RT_Installer.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SELFEXTRACTOR_WIN32 ICON                    "res\\Setup.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// CUSTOM
+//
+
+IDR_CUSTOM1             CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\Release\\RTP.exe"
+IDR_CUSTOM_EN_TW_LH_WORDS CUSTOM                "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Training Words\\LH_Words.dat"
+IDR_CUSTOM_EN_TW_RH_WORDS CUSTOM                "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Training Words\\RH_Words.dat"
+IDR_CUSTOM_EN_TW_LTOR_WORDS CUSTOM              "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Training Words\\LTOR_Both.dat"
+IDR_CUSTOM_EN_TW_RTOH_WORDS CUSTOM              "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Training Words\\RTOL_Both.dat"
+IDR_CUSTOM_EN_TEST      CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\Sample.txt"
+IDR_CUSTOM_EN_TEST2     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\Sample2.txt"
+IDR_CUSTOM_EN_TEST3     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\Sample3.txt"
+IDR_CUSTOM_EN_TEST4     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_I.txt"
+IDR_CUSTOM_EN_TEST5     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_II.txt"
+IDR_CUSTOM_EN_TEST6     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_III.txt"
+IDR_CUSTOM_EN_TEST7     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_IV.txt"
+IDR_CUSTOM_EN_TEST8     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_V.txt"
+IDR_CUSTOM_EN_TEST9     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_VI.txt"
+IDR_CUSTOM_EN_TEST10    CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_VII.txt"
+IDR_CUSTOM_EN_TEST11    CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_VIII.txt"
+IDR_CUSTOM_EN_TEST12    CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_IX.txt"
+IDR_CUSTOM_EN_TEST13    CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\EN\\Tests\\BOR_Amendment_X.txt"
+IDR_CUSTOM_FR_TW_LH_WORDS CUSTOM                "D:\\Development\\VCC\\TypingPro.Win32\\FR\\Training Words\\LH_Words.dat"
+IDR_CUSTOM_FR_TW_RH_WORDS CUSTOM                "D:\\Development\\VCC\\TypingPro.Win32\\FR\\Training Words\\RH_Words.dat"
+IDR_CUSTOM_FR_TW_LTOR_WORDS CUSTOM              "D:\\Development\\VCC\\TypingPro.Win32\\FR\\Training Words\\LTOR_Both.dat"
+IDR_CUSTOM_FR_TW_RTOH_WORDS CUSTOM              "D:\\Development\\VCC\\TypingPro.Win32\\FR\\Training Words\\RTOL_Both.dat"
+IDR_CUSTOM_FR_TEST      CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\FR\\Tests\\Sample.txt"
+IDR_CUSTOM_FR_TEST2     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\FR\\Tests\\Sample2.txt"
+IDR_CUSTOM_FR_TEST3     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\FR\\Tests\\Sample3.txt"
+IDR_CUSTOM_RU_TW_LH_WORDS CUSTOM                "D:\\Development\\VCC\\TypingPro.Win32\\RU\\Training Words\\LH_Words_RU_UTF8.txt"
+IDR_CUSTOM_RU_TW_RH_WORDS CUSTOM                "D:\\Development\\VCC\\TypingPro.Win32\\RU\\Training Words\\RH_Words_RU_UTF8.txt"
+IDR_CUSTOM_RU_TW_LTOR_WORDS CUSTOM              "D:\\Development\\VCC\\TypingPro.Win32\\RU\\Training Words\\LTOR_Words_RU_UTF8.txt"
+IDR_CUSTOM_RU_TW_RTOH_WORDS CUSTOM              "D:\\Development\\VCC\\TypingPro.Win32\\RU\\Training Words\\RTOL_Words_RU_UTF8.txt"
+IDR_CUSTOM_RU_TEST      CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\RU\\Tests\\Sample.txt"
+IDR_CUSTOM_RU_TEST2     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\RU\\Tests\\Sample2.txt"
+IDR_CUSTOM_RU_TEST3     CUSTOM                  "D:\\Development\\VCC\\TypingPro.Win32\\RU\\Tests\\Sample3.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FINISH DIALOGEX 22, 17, 212, 161
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "Rational Typist 1.4 Setup"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Setup options",-1,5,3,199,113
+    LTEXT           "Language",-1,11,13,32,8
+    LTEXT           "",-1,56,17,140,1,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO,15,42,75,59,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Default:",-1,37,27,27,8
+    EDITTEXT        IDC_EDIT,13,91,149,14,ES_AUTOHSCROLL
+    LTEXT           "Destination",-1,12,77,37,8
+    PUSHBUTTON      "Install",IDC_BUTTON_INSTALL,153,139,50,14
+    LTEXT           "",-1,55,81,136,1,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "...",IDC_BUTTON_DESTINATION,173,91,15,14
+    LTEXT           "Additional:",-1,136,27,41,8
+    CONTROL         "",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | 
+                    WS_BORDER | WS_TABSTOP,113,41,80,35
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | 
+                    WS_TABSTOP,178,28,16,8
+    LTEXT           "Installer by",-1,7,125,40,10,WS_DISABLED
+    LTEXT           "MSB LLC",IDC_STATIC_LINK,47,125,91,10,SS_NOTIFY
+    LTEXT           "",-1,82,129,122,1,0,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,5,0
+ PRODUCTVERSION 1,4,0,0
+ FILEFLAGSMASK 0x0L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x0L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "MSB LLC"
+            VALUE "FileDescription", "Rational Typist v1.4 Setup"
+            VALUE "FileVersion", "1, 1, 5, 0"
+            VALUE "InternalName", "Win32_Installer.exe"
+            VALUE "LegalCopyright", "Copyright � 2005-2012 MSB LLC. All rights reserved."
+            VALUE "ProductName", "Rational Typist"
+            VALUE "ProductVersion", "1, 4, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_IMAGE_SET_NAME      "test"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
